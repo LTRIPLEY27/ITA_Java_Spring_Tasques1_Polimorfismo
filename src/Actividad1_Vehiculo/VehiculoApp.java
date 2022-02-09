@@ -17,5 +17,12 @@ public class VehiculoApp {
 
         System.out.println(vehiculo.toString());//LLAMA AL MÉTODO TOSTRING PARA IMPRIMIR TODOS LOS ATRIBUTOS DEL OBJETO
         vehiculo.iniciar();//LLAMADA AL MÉTODO INICIAR.
+
+        //2do EJERCICIO, INVOCACIÓN MÉTODOS ESTÁTICOS Y NO ESTÁTICOS
+        //MÉTODO ESÁTICO
+        Vehiculo.parar();
+
+        //Método no estático
+        vehiculo.acelerar();
     }
 }

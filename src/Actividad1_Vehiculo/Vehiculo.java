@@ -8,6 +8,7 @@ public class Vehiculo {
     private double heigth;
     private String colour;
     private int seats;
+    private final int SPEED = 200;
 
    public Vehiculo(int doors, double heigth, String colour, int seats) {
         this.doors = doors;
@@ -57,6 +58,16 @@ public class Vehiculo {
 
     public void iniciar(){
         System.out.println("El coche tiene " + this.seats + " asientos");
+    }
+
+    // MÉTODO ESTÁTICO
+    public static void parar(){
+       System.out.println("El coche actualmente está averiado, por lo cual, su estado es de parado");
+    }
+
+    //MÉTODO NO ESTÁTICO
+    public void acelerar(){
+        System.out.println("El coche actualmente está en una aceleración de " + SPEED + " Kilometros por hora");
     }
 
     @Override

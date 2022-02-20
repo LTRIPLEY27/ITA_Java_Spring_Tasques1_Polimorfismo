@@ -7,6 +7,7 @@ public class AmphibianApp {
             amp.mover();
             amp.respirar();
             //amp.saltar(); // MÉTODO QUE PRODUCE EL ERROR YA QUE NO SE PUEDE HACER USO DE LA GENERALIZACION
+            //NO LLAMA A LOS NIEVOS MÉTODOS SOBREESCRITOS DE FROG
         }
     }
 }

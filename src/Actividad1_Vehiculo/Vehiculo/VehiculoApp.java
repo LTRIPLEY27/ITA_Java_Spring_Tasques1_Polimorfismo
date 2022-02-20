@@ -1,4 +1,6 @@
-package Actividad1_Vehiculo;
+package Actividad1_Vehiculo.Vehiculo;
+
+import Actividad1_Vehiculo.Vehiculo.Vehiculo;
 
 import java.util.Scanner;
 
@@ -24,5 +26,6 @@ public class VehiculoApp {
 
         //Método no estático
         vehiculo.acelerar();
+       // System.out.println(MOTOR);
     }
 }
